@@ -3,7 +3,7 @@ import Image from 'next/image';
 const SectionFirst = () => {
   return (
     <div className='max-w-[100vw] shrink-0 box-border h-[90%] max-h-[90%] flex justify-end items-end pointer-events-all'>
-      <div className='grid relative rounded-[10px] p-4 bg-black z-50 overflow-hidden grid-rows-1 md:grid-rows-7 grid-cols-7 md:grid-cols-4 lg:grid-cols-5 h-full w-full group gap-4 box-border'>
+      <div className='grid relative rounded-[10px] p-4 z-50 overflow-hidden grid-rows-1 md:grid-rows-7 grid-cols-7 md:grid-cols-4 lg:grid-cols-5 h-full w-full group gap-4 box-border'>
         <div className='rounded-[10px] pointer-events-none flex overflow-hidden md:col-span-2 md:row-span-4'>
           <Image
             alt=''

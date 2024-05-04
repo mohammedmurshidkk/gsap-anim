@@ -3,7 +3,7 @@ import Image from 'next/image';
 const SectionThird = () => {
   return (
     <div className='max-w-[100vw] shrink-0 box-border h-[90%] max-h-[90%] flex justify-end items-end pointer-events-all'>
-      <div className='grid relative rounded-[10px] p-4 bg-black overflow-hidden z-50 md:grid-rows-7 lg:grid-cols-9 md:grid-cols-7 h-full w-full group gap-4 box-border'>
+      <div className='grid relative rounded-[10px] p-4 overflow-hidden z-50 md:grid-rows-7 lg:grid-cols-9 md:grid-cols-7 h-full w-full group gap-4 box-border'>
         <div className='rounded-[10px] pointer-events-none flex overflow-hidden md:col-span-4 row-start-1 row-end-[8]'>
           <Image
             alt=''
