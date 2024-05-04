@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/gsap-anim',
+  basePath: 'gsap-anim',
   reactStrictMode: true,
   images: { domains: ['picsum.photos'] },
 };
